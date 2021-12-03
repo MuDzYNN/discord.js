@@ -2,7 +2,7 @@
 
 const Package = (exports.Package = require('../../package.json'));
 const { Error, RangeError } = require('../errors');
-const browser = (exports.browser = typeof window !== 'undefined');
+const browser = false;
 
 /**
  * Options for a client.
